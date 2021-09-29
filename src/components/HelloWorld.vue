@@ -73,6 +73,7 @@
             this.count += r.length;
           }
         }
+        
         // let j = 1;
         // let l = 0;
         // let h = 0;
