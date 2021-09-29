@@ -68,8 +68,6 @@
         let t;
         for(var i=0; i <= this.num ; i++ ){
         // //每个数字进行比较；
-        // a+=i;
-        // var l = a.toString().match(regex)
           var r = i.toString().match(regex)
           if(r){
             this.count += r.length;
