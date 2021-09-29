@@ -168,7 +168,7 @@
         let d=JSON.parse(JSON.stringify(data))
         console.log(d)
         d=this.retun1(d)
-        console.log('=======:完成:',this.retun1(d),'次数：',this.count)
+        console.log('=======:完成:',d,'次数：',this.count)
       },
        retun1 (arr) {
         if (arr.length === 1) {
@@ -188,6 +188,8 @@
           } else {
             r.push(rightarr.shift())
           }
+          console.log(this.count)
+          console.log(r)
           this.count++
         }
         // console.log('左：',leftarr,'右：',rightarr,'r:',r)
